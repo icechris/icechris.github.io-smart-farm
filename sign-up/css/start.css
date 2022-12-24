@@ -10,6 +10,7 @@ label{
 	width: 100%;
 	margin:  0 auto;
 	/* background-image:url("image.jpg");	 */
+	background-color: red;
 	display: flex;
 	display: -webkit-flex;
 	justify-content: center;
