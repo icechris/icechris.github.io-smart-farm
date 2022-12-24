@@ -1,6 +1,6 @@
 body {
 	margin:  0;
-	background-image:url("/landing page/Get Started/image.jpg");
+	background-image:url("/Get Started/image.jpg");
 }
 label{
 	color:white;
@@ -8,7 +8,7 @@ label{
 .page-content {
 	width: 100%;
 	margin:  0 auto;
-	background-image:url("/landing page/Get Started/image.jpg");	
+	background-image:url("/Get Started/image.jpg");	
 	display: flex;
 	display: -webkit-flex;
 	justify-content: center;
