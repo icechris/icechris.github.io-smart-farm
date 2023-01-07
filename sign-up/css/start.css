@@ -7,7 +7,7 @@ label{
 }
 .page-content {
 	width: 100%;
-	height: 150vh;
+	height: 100vh;
 	margin:  0 auto;
 	background-image:url("/image.jpg");	
 	/* background-color: red; */
@@ -23,13 +23,8 @@ label{
 	-ms-align-items: center;
 	-moz-align-items: center;
 	-webkit-align-items: center; 
-	/* background-image: -moz-linear-gradient( 136deg, rgb(149,153,226) 0%, rgb(139,198,236) 100%); */
-    /* background-image: url("image.jpg"); */
-    /* background-image: -ms-linear-gradient( 136deg, rgb(149,153,226) 0%, rgb(139,198,236) 100%); */
+	
 
-}
-#myform{
-	/* background-image: url("image.jpg"); */
 }
 #regn{
 	color: white;
@@ -149,7 +144,7 @@ label{
 	cursor: pointer;
 }
 .form-v10-content .form-detail .form-left select {
-	color: rgb(255, 255, 255);
+	color: rgb(70, 19, 19);
 }
 .form-v10-content .form-detail .form-right select {
 	color: hsl(0, 100%, 100%);
