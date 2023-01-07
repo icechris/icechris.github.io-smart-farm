@@ -473,11 +473,10 @@ background: green;
     padding-right: 15px;
   }
   #signup-btn{
-    position: absolute;
-    left: 100rem;
+    
   }
 } 
 #forget-password{
-  bottom: 1.5rem;
+ 
   position: relative;
 }
