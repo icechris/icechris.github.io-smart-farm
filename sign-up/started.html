@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login </title>
+	<title>Get Started </title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -28,14 +28,17 @@
 				  <h3 class="mb-1 pb-2 pb-md-0 mb-md-1">Get Started <img class="p-1" src="/Login/images/Tractor-SVG-037amn.svg" width="50"></h3>
 				  <p class="mb-5" style="color: #393f81;">Already have an account? <a href="/Login/signin.html"
 					style="color: green">Register here</a></p>
-				  <form>
+
+
+
+				  <form >
 	  
 					<div class="row">
 					  <div class="col-md-4 mb-4">
 	  
 						<div class="form-outline">
 							<label class="form-label" for="firstName">First Name</label>
-						  <input type="text" id="firstName" class="form-control form-control-lg " />
+						  <input type="text" id="firstName" class="form-control form-control-lg "required >
 						 
 						</div>
 	  					</div>
@@ -43,7 +46,7 @@
 	  
 						<div class="form-outline">
 							<label class="form-label" for="lastName">Last Name</label>
-						  <input type="text" id="lastName" class="form-control form-control-lg " />
+						  <input type="text" id="lastName" class="form-control form-control-lg " required >
 					
 						</div>
 	  
@@ -52,7 +55,7 @@
 	  
 						<div class="form-outline datepicker w-100">
 							<label for="otherName" class="form-label">Other Name(s)</label>
-							<input type="text" class="form-control form-control-lg " id="otherName" />
+							<input type="text" class="form-control form-control-lg " id="otherName" required >
 						
 						</div>
 	  
@@ -64,7 +67,7 @@
 	  
 						<div class="form-outline  w-100">
 							<label for="birthdayDate" class="form-label">Birthday</label>
-							<input type="date" class="form-control form-control-lg " id="birthdayDate" />
+							<input type="date" class="form-control form-control-lg " id="birthdayDate" required >
 						
 						 
 						</div>
@@ -98,7 +101,7 @@
 	  
 						<div class="form-outline  w-100">
 							<label for="birthPlace" class="form-label">Place Of Birth</label>
-							<input type="text" class="form-control form-control-lg " id="birthPlace" />
+							<input type="text" class="form-control form-control-lg " id="birthPlace" required >
 					
 						 
 						</div>
@@ -120,7 +123,7 @@
 	  
 						<div class="form-outline">
 							<label class="form-label" for="phoneNumber">Phone Number</label>
-						  <input type="tel" id="phoneNumber" class="form-control form-control-lg " />
+						  <input type="tel" id="phoneNumber" class="form-control form-control-lg " required >
 						 
 						</div>
 	  
@@ -130,7 +133,7 @@
 	  
 						<div class="form-outline">
 							<label class="form-label" for="residence">Residence</label>
-						  <input type="text" id="residence" class="form-control form-control-lg " />
+						  <input type="text" id="residence" class="form-control form-control-lg " required >
 						 
 						</div>
 	  
@@ -140,7 +143,7 @@
 	  
 						<div class="form-outline  w-100">
 							<label for="address" class="form-label">Residential Address</label>
-						  <input type="text" class="form-control form-control-lg " id="address" />
+						  <input type="text" class="form-control form-control-lg " id="address" required >
 						 
 						</div>
 	  
@@ -152,7 +155,7 @@
 		
 						  <div class="form-outline">
 							<label class="form-label" for="password">Password</label>
-							<input type="password" id="pasword" class="form-control form-control-lg " />
+							<input type="password" id="pasword" class="form-control form-control-lg " required >
 							
 						  </div>
 		
@@ -161,7 +164,7 @@
 		
 						  <div class="form-outline">
 								<label class="form-label" for="confirmPassowrd">Confirm Password</label>
-							<input type="password" id="confirmPassowrd" class="form-control form-control-lg  " />
+							<input type="password" id="confirmPassowrd" class="form-control form-control-lg  " required >
 						
 						  </div>
 		
@@ -171,7 +174,7 @@
 							<label class="form-label select-label">Select Region</label>
 	                    <div class="form-outline">
 
-							<select class="select form-control-lg  textt dark col-12 ">
+							<select class="form-select form-control-lg  textt dark col-12 " required aria-label="select example">
 								<option class="bg-white" value="1" disabled>Choose option</option>
 								<option value="2">Subject 1</option>
 								<option value="3">Subject 2</option>
@@ -196,7 +199,15 @@
 	  
 					
 					
-					
+					  <div class="col-12">
+						<div class="form-check">
+						  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+						  <label class="form-check-label" for="invalidCheck">
+							Agree to proceed
+						  </label>
+						 
+						</div>
+					  </div>
 				
 					
 					<div class="mt-2 pt-2">
@@ -212,22 +223,7 @@
 	  </section>
 	
 	
-<!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/daterangepicker/moment.min.js"></script>
-	<script src="vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
+
 
 </body>
 </html>
